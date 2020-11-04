@@ -26,6 +26,17 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Base Styles */
 
+/* Accessibility-preserving Styles */
+/*
+  THINK CAREFULLY before hiding things that could be
+  really useful to all users.
+*/
+/*
+figcaption {
+  position: absolute;
+  left: -100000px;
+}
+*/
 /* Layout */
 
 /* Modular */
