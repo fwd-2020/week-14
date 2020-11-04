@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
-@import url("#https://basehold.it/16");
+@import url("https://basehold.it/11");
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -16,15 +16,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   Anchoring font-family: "Merriweather Sans"
   https://fonts.google.com/specimen/Merriweather+Sans?category=Sans+Serif&stylecount=8&sidebar.open=true&selection.family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700
 
-  Anchoring font-size:
+  Anchoring font-size: 16px
 
-  Anchoring line-height:
+  Anchoring line-height: 22px
 
   Modular scale for alternate font-size values:
 
 */
 
-/* Base Styles */
+/* Base Styles: SUPER-MICRO MINI; See the min-width: 235px media query */
 
 html {
   font-family: "Merriweather Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -44,6 +44,7 @@ h4 {
 h1 {
   margin-bottom: 16px;
 }
+
 
 
 /* Responsive-image Styles */
@@ -75,3 +76,29 @@ figcaption {
 }
 
 /* State */
+
+@media screen and (min-width: 235px) {
+  /* Base Styles */
+  html {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 11px;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-bottom: 11px;
+  }
+
+  h1 {
+    margin-bottom: 22px;
+  }
+
+  /* Modular Styles */
+  .nav a {
+    padding: 0 0 0 0;
+    margin-bottom: 11px;
+    padding: 11px;
+  }
+}
