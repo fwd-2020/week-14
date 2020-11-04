@@ -26,6 +26,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Base Styles */
 
+
+/* Responsive-image Styles */
+img {
+  display: block;
+  max-width: 100%;
+}
 /* Accessibility-preserving Styles */
 /*
   THINK CAREFULLY before hiding things that could be
