@@ -50,6 +50,12 @@ h4 {
 h1 {
   margin-bottom: 16px;
 }
+aside {
+  background-color: #222;
+  color: #DDD;
+  padding: 4px;
+  margin: 0 -4px 0 -4px;
+}
 
 
 
@@ -101,6 +107,16 @@ figcaption {
 
   h1 {
     margin-bottom: 22px;
+  }
+  aside {
+    font-size: 0.888875em; /* New em! 14.222px / 16 = 0.888875 */
+    line-height: 1.5468991703em; /* 22 / 14.222 = 1.5468991703 */
+    padding: 0.7734495851em; /* 11 / 14.222 = 0.7734495851 */
+    margin: 0 -0.7734495851em 0 -0.7734495851em;
+  }
+
+  aside h2 {
+    margin-bottom: 0.7734495851em; /* 11 / 14.222 = 0.7734495851 */
   }
 
   /* Modular Styles */
