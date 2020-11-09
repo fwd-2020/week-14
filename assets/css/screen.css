@@ -62,7 +62,6 @@ aside {
 /* Responsive-image Styles */
 img {
   display: block;
-  display: none;
   max-width: 100%;
 }
 /* Accessibility-preserving Styles */
