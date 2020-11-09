@@ -92,6 +92,16 @@ figcaption {
   background-color: #BBB;
 }
 
+figure {
+  position: relative;
+}
+figcaption {
+  position: absolute;
+  bottom: 0;
+  color: #DDD;
+  background-color: rgba(0,0,0,0.6);
+}
+
 /* State */
 
 @media screen and (min-width: 235px) {
@@ -112,11 +122,15 @@ figcaption {
   h1 {
     margin-bottom: 22px;
   }
-  aside {
+  aside,
+  figcaption {
     font-size: 0.888875em; /* New em! 14.222px / 16 = 0.888875 */
     line-height: 1.5468991703em; /* 22 / 14.222 = 1.5468991703 */
     padding: 0.7734495851em; /* 11 / 14.222 = 0.7734495851 */
     margin: 0 -0.7734495851em 0 -0.7734495851em;
+  }
+  figcaption {
+    margin: 0;
   }
 
   aside h2 {
