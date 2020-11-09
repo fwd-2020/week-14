@@ -87,6 +87,11 @@ figcaption {
   margin-bottom: 16px;
   text-decoration: none;
 }
+.nav a:hover,
+.nav a:active,
+.nav a:focus {
+  background-color: #BBB;
+}
 
 /* State */
 
