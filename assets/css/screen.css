@@ -103,6 +103,15 @@ figcaption {
 }
 
 /* State */
+figcaption {
+  transition: opacity 1s;
+}
+figcaption.active {
+  opacity: 1.0;
+}
+figcaption.inactive {
+  opacity: 0;
+}
 
 @media screen and (min-width: 235px) {
   /* Base Styles */
