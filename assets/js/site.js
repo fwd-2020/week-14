@@ -1,3 +1,6 @@
+// Add a javascript utility class to the <html> (`class="js"`)
+document.querySelector('html').className = 'js';
+
 var figures = document.querySelectorAll('figure');
 
 for (var i = 0; i < figures.length; i++) {
