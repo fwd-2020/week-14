@@ -1,3 +1,9 @@
+(function() {
+
+if (!('querySelector' in document)) {
+  return; // Oops, old browser. Byeeeee! (exit the function)
+}
+
 // Add a javascript utility class to the <html> (`class="js"`)
 document.querySelector('html').className = 'js';
 
@@ -15,3 +21,6 @@ for (var i = 0; i < figures.length; i++) {
     console.log('Hey! You clicked a figure element!', parent_node, figcaption.className);
   });
 }
+
+// end of iife
+})();
